@@ -1,0 +1,60 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+.top .r1 .cl1 .child{
+    border: 1px solid rgba(255, 200, 0, 0.575);
+    border-radius: 10px;
+}
+.top .r1 .cl1 .child:hover{
+    box-shadow: 0px 0px 10px 2px rgba(255, 200, 0, 0.575);
+    border-radius: 0px;
+    transition: 0.5s;
+}
+.top .r1 .cl1 .child a{
+    text-decoration: none;
+    display: block;
+}
+.top .r1 button, .top .r1 .cl1 a{
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 500;
+    color: white; 
+    border: 2px solid rgb(255, 200, 0);
+}
+.top .r1 button:hover, .top .r1 .cl1 a:hover, 
+.add .r1 .cl1 .submit:hover, 
+.login .r1 .cl1 .submit:hover{
+    color: black; 
+    background-color: rgb(255, 200, 0);
+    transition: 0.5s;
+}
+body{
+    position: relative;
+}
+.arrow{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 30px;
+    background-color: rgb(255, 200, 0);
+    border-radius: 100%;
+}
+.add .r1, .login .r1{
+    display: flex;
+    align-items: center;
+    height: 90vh;
+}
+.add .r1 .cl1 .input, .add .r1 .cl1 .submit,
+.login .r1 .cl1 .input, .login .r1 .cl1 .submit{
+    margin-top: 20px;
+    color: white;
+    outline: none;
+    border-radius: 5px;
+    width: 300px;
+    padding: 8px;
+    border: 1px solid rgb(255, 200, 0);
+}
